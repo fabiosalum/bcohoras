@@ -10,24 +10,38 @@ O sistema de banco de horas desenvolvido em Laravel proporciona uma solução fl
 O Sistema Banco de Horas busca facilitar o gerenciamento das horas trabalhadas pelos funcionários de uma empresa, por meio de um sistema simples de ser utilizado.
 
 
+### Features
+
+- [x] Cadastro de Usuário
+- [x] Cadastro de Administrador
+- [x] Cadastro de Supervisor
+- [x] Cadastro de Setores
+- [x] Lancamento de horas
+- [x] Relatório
+
+### 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [laravel](https://laravel.com)
+- [bootstrap](https://getbootstrap.com/)
 
 ## Screenshots
 
+<img src="/z_screenshots/login.png">
 
 
 
-## Contributing
+### Autor
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+<a href="https://fabiosalum.com.br">
+ <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/380327?s=460&u=61b426b901b8fe02e12019b1fdb67bf0072d4f00&v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Fábio Melo Salum</b></sub></a> <a href="https://fabiosalum.com.br" title="Fabio Salum">🚀</a>
 
-## Code of Conduct
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Feito por Fábio Melo Salum 👋🏽 Entre em contato!
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+[![Linkedin Badge](https://img.shields.io/badge/-Fabio-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/fabio-melo-salum-32b7a026/)](https://www.linkedin.com/in/fabio-melo-salum-32b7a026//) 
+[![Gmail Badge](https://img.shields.io/badge/-fabiomelosalum@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:fabiomelosalum@gmail.com)](mailto:fabiomelosalum@gmail.com)
