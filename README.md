@@ -6,7 +6,8 @@
 
 ## Sobre o Projeto
 
-O sistema de banco de horas desenvolvido em Laravel proporciona uma solução flexível para atender às necessidades diversas de empresas. O sistema multiusuário permite que organizações de diferentes setores personalizem e gerenciem de forma eficiente o controle de horas extras trabalhadas pelos funcionários. Banco de horas é um acordo entre empregador e empregado que busca flexibilizar o horário de trabalho do empregado em troca de compensação futura.
+O sistema de banco de horas desenvolvido em Laravel proporciona uma solução flexível para atender às necessidades diversas de empresas. O sistema multiusuário permite que organizações de diferentes setores personalizem e gerenciem de forma eficiente o controle de horas extras trabalhadas pelos funcionários. <br>
+Banco de horas é um acordo entre empregador e empregado que busca flexibilizar o horário de trabalho do empregado em troca de compensação futura.
 O Sistema Banco de Horas busca facilitar o gerenciamento das horas trabalhadas pelos funcionários de uma empresa, por meio de um sistema simples de ser utilizado.
 
 
@@ -46,27 +47,51 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 [composer](https://getcomposer.org/)
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
-### 🎲 Rodando o Back End (servidor)
+
+### 🎲 Rodando o Sistema (servidor local)
 
 ```bash
-# Clone este repositório
+# Clone este repositório ou faça o download
 $ git clone <https://github.com/fabiosalum/bcohoras>
 
-# Acesse a pasta do projeto no terminal/cmd
-$ cd bcohoras
+# utilizando o xampp insira os arquivos na pasta htdocs
 
-# Vá para a pasta server
-$ cd server
+# Utilizando o Vscode abra o terminal e navegue até a pasta do diretório
 
-# Instale as dependências
-$ npm install
+# Utilize o composer para instalar as dependências
 
-# Execute a aplicação em modo de desenvolvimento
-$ npm run dev:server
+$ composer update
 
-# O servidor inciará na porta:3333 - acesse <http://localhost:3333>
-```
+# Crie um Banco de Dados MySql com o nome de sua preferência e altere o arquivo .ENV da aplicação insira o nome do banco, usuário e senha
 
+# Execute o comando para rodar as migrações
+$ php artisan migrate
+
+# Execute o comando para rodar as Seeders
+$ php artisan db:seed
+
+# Execute o servidor do Laravel utilizando o comando
+$ php artisan serve
+
+# O sistema está pronto para rodar no servidor local
+
+
+
+### Usuários
+
+Para acessar o sistema utilize os usuários abaixo
+
+Administrador
+login -> admin@gmail.com
+senha -> 12345
+
+Supervisor
+login -> supervior@gmail.com
+senha -> 12345
+
+Usuário
+login -> user@gmail.com
+senha -> 12345
 
 
 
@@ -83,3 +108,4 @@ Feito por Fábio Melo Salum 👋🏽 Entre em contato!
 
 [![Linkedin Badge](https://img.shields.io/badge/-Fabio-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/fabio-melo-salum-32b7a026/)](https://www.linkedin.com/in/fabio-melo-salum-32b7a026//) 
 [![Gmail Badge](https://img.shields.io/badge/-fabiomelosalum@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:fabiomelosalum@gmail.com)](mailto:fabiomelosalum@gmail.com)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white](instagram.com/fabiomelosalum)
