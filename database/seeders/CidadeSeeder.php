@@ -6,25 +6,18 @@ use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 
-class SetorSeeder extends Seeder
+class CidadeSeeder extends Seeder
 {
     /**
      * Run the database seeds.
      */
     public function run(): void
     {
-        DB::table('setors')->insert([
+        DB::table('configuracoes')->insert([
 
             [
-                'nome' => 'Tecnologia da Informação',
+                'nome' => 'Uberaba/MG',
             ],
-            [
-                'nome' => 'Comunicação',
-            ],
-            [
-                'nome' => 'Editoração',
-            ],
-
         ]);
     }
 }

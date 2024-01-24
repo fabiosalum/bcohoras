@@ -179,7 +179,7 @@
 
 
     <div style="margin-top: -1em">
-        <p style="margin-bottom: 30px">Uberaba, {{Carbon::now()->formatLocalized('%A, %d de %B de %Y')}}</p>
+        <p style="margin-bottom: 30px">{{$config->nome}}, {{Carbon::now()->formatLocalized('%A, %d de %B de %Y')}}</p>
 
     </div>
 

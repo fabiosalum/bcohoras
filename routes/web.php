@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Admin\AdminController;
+use App\Http\Controllers\Admin\ConfiguracoesController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\Supervisor\SupervisorController;
 use App\Http\Controllers\Supervisor\lacamentosController;
@@ -69,6 +70,11 @@ Route::middleware(['auth', 'regra:admin'])->group(function () {
 
     Route::get('/adminperfil/editar', [AdminController::class, 'editarPerfil'])->name('admin.editar.perfil');
     Route::post('/adminperfil/salvar/{id}', [AdminController::class, 'salvarPerfil'])->name('admin.salvar.perfil');
+
+    Route::get('/admin/configuracoes', [ConfiguracoesController::class, 'index'])->name('admin.config');
+    Route::get('/admin/configuracoes/editar', [ConfiguracoesController::class, 'editar'])->name('config.edit');
+
+
 
 
 });

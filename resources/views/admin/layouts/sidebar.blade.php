@@ -63,6 +63,12 @@
               <span class="menu-title">Relatórios</span>
             </a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="{{route('admin.config')}}">
+              <i class="mdi mdi-settings menu-icon"></i>
+              <span class="menu-title">Configurações</span>
+            </a>
+          </li>
 
             <li class="nav-item">
                 <form method="POST" action="{{ route('logout') }}">
