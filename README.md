@@ -74,23 +74,23 @@ $ php artisan db:seed
 $ php artisan serve
 
 # O sistema está pronto para rodar no servidor local
-
+```
 
 
 ### Usuários
 
 Para acessar o sistema utilize os usuários abaixo
 
-Administrador
-login -> admin@gmail.com
+Administrador<br><br>
+login -> admin@gmail.com <br>
 senha -> 12345
 
-Supervisor
-login -> supervior@gmail.com
+Supervisor<br><br>
+login -> supervior@gmail.com<br>
 senha -> 12345
 
-Usuário
-login -> user@gmail.com
+Usuário<br><br>
+login -> user@gmail.com<br>
 senha -> 12345
 
 
@@ -107,4 +107,5 @@ senha -> 12345
 Feito por Fábio Melo Salum 👋🏽 Entre em contato!
 
 [![Linkedin Badge](https://img.shields.io/badge/-Fabio-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/fabio-melo-salum-32b7a026/)](https://www.linkedin.com/in/fabio-melo-salum-32b7a026//) 
-[![Gmail Badge](https://img.shields.io/badge/-fabiomelosalum@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:fabiomelosalum@gmail.com)](mailto:fabiomelosalum@gmail.com)
+[![Gmail Badge](https://img.shields.io/badge/-fabiomelosalum@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:fabiomelosalum@gmail.com)](mailto:fabiomelosalum@gmail.com) <br>
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](instagram.com/fabiomelosalum)
