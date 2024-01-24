@@ -28,7 +28,45 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 ## Screenshots
 
-<img src="/z_screenshots/login.png">
+<img src="/z_screenshots/login.png"><br>
+<img src="/z_screenshots/01.png"><br>
+<img src="/z_screenshots/02.png"><br>
+<img src="/z_screenshots/03.png"><br>
+<img src="/z_screenshots/04.png"><br>
+<img src="/z_screenshots/05.png"><br>
+<img src="/z_screenshots/06.png"><br>
+<br><br>
+<p>Relatório em pdf</p>
+<img src="/z_screenshots/07.png">
+
+### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com). 
+[composer](https://getcomposer.org/)
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+
+### 🎲 Rodando o Back End (servidor)
+
+```bash
+# Clone este repositório
+$ git clone <https://github.com/fabiosalum/bcohoras>
+
+# Acesse a pasta do projeto no terminal/cmd
+$ cd bcohoras
+
+# Vá para a pasta server
+$ cd server
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev:server
+
+# O servidor inciará na porta:3333 - acesse <http://localhost:3333>
+```
+
 
 
 
@@ -36,7 +74,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ---
 
 <a href="https://fabiosalum.com.br">
- <img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/380327?s=460&u=61b426b901b8fe02e12019b1fdb67bf0072d4f00&v=4" width="100px;" alt=""/>
+ <img style="border-radius: 50%;" src="/z_screenshots/foto-fabio.jpg" width="100px;" alt=""/>
  <br />
  <sub><b>Fábio Melo Salum</b></sub></a> <a href="https://fabiosalum.com.br" title="Fabio Salum">🚀</a>
 
