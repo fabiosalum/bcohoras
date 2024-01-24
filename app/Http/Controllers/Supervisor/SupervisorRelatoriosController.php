@@ -11,6 +11,7 @@ use Barryvdh\DomPDF\PDF;
 use Illuminate\Support\Facades\Auth;
 use Dompdf\Dompdf;
 use Illuminate\Support\Facades\View;
+use App\Models\Configuracoes;
 
 class SupervisorRelatoriosController extends Controller
 {
@@ -100,6 +101,7 @@ class SupervisorRelatoriosController extends Controller
 
         // Recupere o usuário do banco de dados
         $user = User::find($id);
+        $config = Configuracoes::find(1);
 
         // Se o usuário for encontrado, você pode exibir o relatório
         if ($user) {
@@ -139,7 +141,8 @@ class SupervisorRelatoriosController extends Controller
                 'diferencaHoras' => $formatoDiferenca,
                 'totalSolicitacoes_entradasFormatado' => $totalSolicitacoes_entradas->format('H:i:s'),
                 'totalSolicitacoes_saidasFormatado' => $totalSolicitacoes_saidas->format('H:i:s'),
-                'formatoDiferenca' => gmdate('H:i:s', $diferencaHoras * 3600)
+                'formatoDiferenca' => gmdate('H:i:s', $diferencaHoras * 3600),
+                'config' => $config
             ];
 
             $dompdf = new Dompdf();
