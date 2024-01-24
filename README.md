@@ -99,7 +99,7 @@ senha -> 12345
 ---
 
 <a href="https://fabiosalum.com.br">
- <img style="border-radius: 50%;" src="/z_screenshots/foto-fabio.jpg" width="100px;" alt=""/>
+ <img style="border-radius: 50%;" src="/z_screenshots/foto-fabio.jpg" width="100px;" alt="Fábio Salum"/>
  <br />
  <sub><b>Fábio Melo Salum</b></sub></a> <a href="https://fabiosalum.com.br" title="Fabio Salum">🚀</a>
 
@@ -108,4 +108,3 @@ Feito por Fábio Melo Salum 👋🏽 Entre em contato!
 
 [![Linkedin Badge](https://img.shields.io/badge/-Fabio-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/fabio-melo-salum-32b7a026/)](https://www.linkedin.com/in/fabio-melo-salum-32b7a026//) 
 [![Gmail Badge](https://img.shields.io/badge/-fabiomelosalum@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:fabiomelosalum@gmail.com)](mailto:fabiomelosalum@gmail.com)
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white](instagram.com/fabiomelosalum)
