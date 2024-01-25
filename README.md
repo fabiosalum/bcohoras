@@ -11,6 +11,15 @@ Banco de horas é um acordo entre empregador e empregado que busca flexibilizar 
 O Sistema Banco de Horas busca facilitar o gerenciamento das horas trabalhadas pelos funcionários de uma empresa, por meio de um sistema simples de ser utilizado.
 
 
+
+
+https://github.com/fabiosalum/bcohoras/assets/114250063/3b544a58-75e9-4e6a-aa7a-0fdd3d2d06eb
+
+
+
+
+
+
 ### Features
 
 - [x] Cadastro de Usuário
@@ -26,6 +35,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - [laravel](https://laravel.com)
 - [bootstrap](https://getbootstrap.com/)
+
 
 ## Screenshots
 
@@ -56,13 +66,14 @@ $ git clone <https://github.com/fabiosalum/bcohoras>
 
 # utilizando o xampp insira os arquivos na pasta htdocs
 
-# Utilizando o Vscode abra o terminal e navegue até a pasta do diretório
+# No Vscode abra o terminal e navegue até a pasta do diretório
 
 # Utilize o composer para instalar as dependências
 
 $ composer update
 
-# Crie um Banco de Dados MySql com o nome de sua preferência e altere o arquivo .ENV da aplicação insira o nome do banco, usuário e senha
+# Crie um Banco de Dados MySql com o nome de sua preferência e altere o arquivo .ENV da aplicação
+insira o nome do banco, usuário e senha
 
 # Execute o comando para rodar as migrações
 $ php artisan migrate
